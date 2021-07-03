@@ -76,7 +76,7 @@ h2:hover{
 	color: orange;
 }
 
-img:hover{
+.places:hover{
 	width:340px;
 	height:340px;
 	opacity: 0.8:;
