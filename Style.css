@@ -1,0 +1,88 @@
+h1{
+	color: white;
+	font-size: 500%;
+	font-family: 'Source Sans Pro', sans-serif;
+	transform: translate(5%, -175%);
+	display: flex;
+	position: absolute;
+	text-align: left;
+}
+
+#cardheadings, h2{
+	color: yellow;
+	font-size: 600%;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 40px;
+
+}
+
+#homepagebanner{
+	width: 100%;
+	position: relative;
+}
+
+#logo{
+	width: 5%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+h5{
+	width: 10%;
+	position: absolute;
+	top: 0px;
+	left: 45px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.places{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 200%;
+}
+
+ul, ol{
+	list-style-type: none;
+	padding: 30px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#bannerDiv > h2{
+	display: flex;
+	position: absolute;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h2:hover{
+	color: orange;
+}
+
+img:hover{
+	width:340px;
+	height:340px;
+	opacity: 0.8:;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
